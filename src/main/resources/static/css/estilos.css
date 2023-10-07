@@ -1,0 +1,102 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 sept 2023, 00:38:23
+    Author     : joses
+*/
+
+/* Estilo para el Home */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 7% 20px 0;
+    background-color: #f2f2f2;
+    color: #111111;
+}
+
+.description{
+    margin-top: 1%;
+}
+
+.main-text{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tabla{
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #0d0d0d;
+}
+
+.section{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 80%;
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #0d0d0d;
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-link{
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-menu-item{
+    color: white;
+    text-decoration: none;
+}
